@@ -8,8 +8,9 @@
 <body>
         <h1><?php echo 'Hello, World!'; ?></h1>
         <?php 
-            $timestamp = time(); 
-            echo $timestamp;
+            $timestamp = time();
+            $formatted = date('y-m-d h:i:s T', $timestamp);
+            echo $formatted;
         ?>
 
 </body>
