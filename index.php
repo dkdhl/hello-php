@@ -7,7 +7,10 @@
 </head>
 <body>
         <h1><?php echo 'Hello, World!'; ?></h1>
-        <p>echo date(DATE_RFC2822)."\n";</p>
+        <?php 
+            $timestamp = time(); 
+            echo $timestamp;
+        ?>
 
 </body>
 </html>
